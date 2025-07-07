@@ -1,0 +1,35 @@
+{
+    "name": "adf-dio-roberta",
+    "id": "/subscriptions/db6d29df-b694-4ddf-b841-afcaa7688ab4/resourceGroups/rg-dio-roberta/providers/Microsoft.DataFactory/factories/adf-dio-roberta",
+    "type": "Microsoft.DataFactory/factories",
+    "properties": {
+        "provisioningState": "Succeeded",
+        "createTime": "2025-07-07T15:04:07.8583662Z",
+        "version": "2018-06-01",
+        "factoryStatistics": {
+            "totalResourceCount": 0,
+            "maxAllowedResourceCount": 0,
+            "factorySizeInGbUnits": 0,
+            "maxAllowedFactorySizeInGbUnits": 0
+        },
+        "repoConfiguration": {
+            "type": "FactoryGitHubConfiguration",
+            "accountName": "tatademarcelo",
+            "repositoryName": "https://github.com/tatademarcelo/Azure.git",
+            "collaborationBranch": "rep",
+            "rootFolder": "/"
+        },
+        "publicNetworkAccess": "Enabled"
+    },
+    "eTag": "\"44006cdc-0000-0200-0000-686be1e80000\"",
+    "location": "eastus2",
+    "identity": {
+        "type": "SystemAssigned",
+        "principalId": "7b67760e-694e-4c08-ba92-5c86e2e34b34",
+        "tenantId": "001142fd-c2ac-4dd3-888c-2ec5dc269041"
+    },
+    "tags": {
+        "DIO": "azure"
+    },
+    "apiVersion": "2018-06-01"
+}
