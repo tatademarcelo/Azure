@@ -1,0 +1,261 @@
+{
+  "properties": {
+    "lenses": [
+      {
+        "order": 0,
+        "parts": [
+          {
+            "position": {
+              "x": 0,
+              "y": 0,
+              "colSpan": 2,
+              "rowSpan": 2
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/HubsExtension/PartType/ClockPart",
+              "settings": {
+                "content": {
+                  "timezoneId": "Bahia Standard Time",
+                  "timeFormat": "h:mma",
+                  "version": 1
+                }
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 2,
+              "y": 0,
+              "colSpan": 2,
+              "rowSpan": 1
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "queryInputs",
+                  "value": {
+                    "defaultQuery": {
+                      "subscriptions": [
+                        "db6d29df-b694-4ddf-b841-afcaa7688ab4"
+                      ],
+                      "resourceGroupId": "/subscriptions/db6d29df-b694-4ddf-b841-afcaa7688ab4/resourceGroups/rg-dio-roberta",
+                      "resourceId": "/subscriptions/db6d29df-b694-4ddf-b841-afcaa7688ab4/resourceGroups/rg-dio-roberta/providers/Microsoft.DataFactory/factories/adf-dio-roberta",
+                      "resourceType": "all",
+                      "operationNames": [],
+                      "category": "all",
+                      "levels": [
+                        "1",
+                        "2",
+                        "3",
+                        "4",
+                        "5"
+                      ],
+                      "timeSpan": "1",
+                      "endTime": "2025-07-07T17:43:53.325Z",
+                      "caller": "all",
+                      "searchString": ""
+                    }
+                  },
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/Microsoft_Azure_ActivityLog/PartType/ActivityLogPart"
+            }
+          },
+          {
+            "position": {
+              "x": 4,
+              "y": 0,
+              "colSpan": 7,
+              "rowSpan": 2
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "resourceType",
+                  "value": "Microsoft.Resources/subscriptions/resourcegroups",
+                  "isOptional": true
+                },
+                {
+                  "name": "filter",
+                  "isOptional": true
+                },
+                {
+                  "name": "scope",
+                  "isOptional": true
+                },
+                {
+                  "name": "kind",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/BrowseResourceGroupPinnedPart"
+            }
+          },
+          {
+            "position": {
+              "x": 0,
+              "y": 2,
+              "colSpan": 6,
+              "rowSpan": 4
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "sharedTimeRange",
+                  "isOptional": true
+                },
+                {
+                  "name": "options",
+                  "value": {
+                    "chart": {
+                      "metrics": [
+                        {
+                          "resourceMetadata": {
+                            "id": "/subscriptions/db6d29df-b694-4ddf-b841-afcaa7688ab4/resourceGroups/rg-dio-roberta/providers/Microsoft.DataFactory/factories/adf-dio-roberta"
+                          },
+                          "name": "AirflowIntegrationRuntimeCpuPercentage",
+                          "aggregationType": 4,
+                          "namespace": "microsoft.datafactory/factories",
+                          "metricVisualization": {
+                            "displayName": "Airflow Integration Runtime Cpu Percentage",
+                            "resourceDisplayName": "adf-dio-roberta"
+                          }
+                        }
+                      ],
+                      "title": "Média Airflow Integration Runtime Cpu Percentage para adf-dio-roberta",
+                      "titleKind": 1,
+                      "visualization": {
+                        "chartType": 2,
+                        "legendVisualization": {
+                          "isVisible": true,
+                          "position": 2,
+                          "hideHoverCard": false,
+                          "hideLabelNames": true
+                        },
+                        "axisVisualization": {
+                          "x": {
+                            "isVisible": true,
+                            "axisType": 2
+                          },
+                          "y": {
+                            "isVisible": true,
+                            "axisType": 1
+                          }
+                        }
+                      },
+                      "timespan": {
+                        "relative": {
+                          "duration": 86400000
+                        },
+                        "showUTCTime": false,
+                        "grain": 1
+                      }
+                    }
+                  },
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/PartType/MonitorChartPart",
+              "settings": {
+                "content": {
+                  "options": {
+                    "chart": {
+                      "metrics": [
+                        {
+                          "resourceMetadata": {
+                            "id": "/subscriptions/db6d29df-b694-4ddf-b841-afcaa7688ab4/resourceGroups/rg-dio-roberta/providers/Microsoft.DataFactory/factories/adf-dio-roberta"
+                          },
+                          "name": "AirflowIntegrationRuntimeCpuPercentage",
+                          "aggregationType": 4,
+                          "namespace": "microsoft.datafactory/factories",
+                          "metricVisualization": {
+                            "displayName": "Airflow Integration Runtime Cpu Percentage",
+                            "resourceDisplayName": "adf-dio-roberta"
+                          }
+                        }
+                      ],
+                      "title": "Média Airflow Integration Runtime Cpu Percentage para adf-dio-roberta",
+                      "titleKind": 1,
+                      "visualization": {
+                        "chartType": 2,
+                        "legendVisualization": {
+                          "isVisible": true,
+                          "position": 2,
+                          "hideHoverCard": false,
+                          "hideLabelNames": true
+                        },
+                        "axisVisualization": {
+                          "x": {
+                            "isVisible": true,
+                            "axisType": 2
+                          },
+                          "y": {
+                            "isVisible": true,
+                            "axisType": 1
+                          }
+                        },
+                        "disablePinning": true
+                      }
+                    }
+                  }
+                }
+              },
+              "filters": {
+                "MsPortalFx_TimeRange": {
+                  "model": {
+                    "format": "local",
+                    "granularity": "auto",
+                    "relative": "1440m"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "model": {
+        "timeRange": {
+          "value": {
+            "relative": {
+              "duration": 24,
+              "timeUnit": 1
+            }
+          },
+          "type": "MsPortalFx.Composition.Configuration.ValueTypes.TimeRange"
+        },
+        "filterLocale": {
+          "value": "en-us"
+        },
+        "filters": {
+          "value": {
+            "MsPortalFx_TimeRange": {
+              "model": {
+                "format": "utc",
+                "granularity": "auto",
+                "relative": "24h"
+              },
+              "displayCache": {
+                "name": "Tempo de UTC",
+                "value": "Últimas 24 horas"
+              },
+              "filteredPartIds": [
+                "StartboardPart-MonitorChartPart-d926d06b-9b45-4677-aba6-aa071bcacfcf"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "name": "Dash_test",
+  "type": "Microsoft.Portal/dashboards",
+  "location": "INSERT LOCATION",
+  "tags": {
+    "hidden-title": "Dash_test"
+  },
+  "apiVersion": "2022-12-01-preview"
+}
